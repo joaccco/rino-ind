@@ -2,7 +2,7 @@
 @section('content')
     <div class="static justify-center bg-white w-screen">
         <div class="grid grid-cols-3 gap-6 grid-row-2">
-            <div class="grid-row1 col-span-3 mx-6 bg-blue-600 h-full rounded-b-xl">
+            <div class="grid-row1 col-span-3 mx-6 bg-blue-600 h-full rounded-b-3xl">
                 <div class="grid grid-cols-2 justify-between gap-6">
                     <div class="justify-start p-20 mt-6 ml-2">
                         <div>
@@ -32,7 +32,7 @@
                 </div>
             </div>
 
-            <div class="col-span-1 mx-6 mr-6 bg-blue-600 w-full h-full rounded-b-xl text-white font-extrabold">
+            <div class="col-span-1 mx-6 mr-6 bg-blue-600 drop-shadow-lg w-full h-full rounded-3xl text-white font-extrabold">
                 <div class="flex justify-end">
                     <p class="text-2xl p-6 mr-6">
                         Tendencias
@@ -47,7 +47,7 @@
                 </div>
             </div>
 
-            <div class="col-span-2 mx-6 bg-blue-600 h-full rounded-b-xl text-white font-extrabold">
+            <div class="col-span-2 mx-6 bg-blue-600 h-full rounded-3xl text-white font-extrabold">
                 <div class="grid grid-cols-2 mt-6">
                     <div class="flex ml-16 justify-start">
                         <p class="text-2xl p-6 mr-6">
@@ -233,9 +233,7 @@
                 </div>
             </div>
 
-            <div>
-                
-            </div>
+            @livewire('products')
 
         </div>
 
