@@ -14,8 +14,16 @@ Route::get('/contact', function () {
     return view('contact.index');
 });
 
-Route::get('/blog', function () {
-    return view('blog.index');
+Route::get('/about', function () {
+    return view('about.index');
+});
+
+Route::get('/products', function () {
+    return view('products.index');
+});
+
+Route::get('/cart', function () {
+    return view('cart.index');
 });
 
 Route::middleware([

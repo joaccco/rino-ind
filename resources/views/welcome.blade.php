@@ -32,10 +32,10 @@
                   </button>
                 </div>
                 <div class="hidden lg:flex lg:gap-x-12">
-                  <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Inicio</a>
-                  <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Productos</a>
-                  <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Blog</a>
-                  <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Contacto</a>
+                  <a href="/home" class="text-sm font-semibold leading-6 text-gray-900">Inicio</a>
+                  <a href="/products" class="text-sm font-semibold leading-6 text-gray-900">Productos</a>
+                  <a href="/posts" class="text-sm font-semibold leading-6 text-gray-900">Blog</a>
+                  <a href="/contact" class="text-sm font-semibold leading-6 text-gray-900">Contacto</a>
                 </div>
                 <div class="hidden lg:flex lg:flex-1 lg:justify-end">
                   <a href="{{ route('login') }}" class="text-sm font-semibold leading-6 mr-3 text-gray-900">Log in</a>
@@ -62,10 +62,10 @@
                   <div class="mt-6 flow-root">
                     <div class="-my-6 divide-y divide-gray-500/10">
                       <div class="space-y-2 py-6">
-                        <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Product</a>
-                        <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Features</a>
-                        <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Marketplace</a>
-                        <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Company</a>
+                        <a href="/home" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Inicio</a>
+                        <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Productos</a>
+                        <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Blog</a>
+                        <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Contacto</a>
                       </div>
                       <div class="py-6">
                         <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Log in</a>
