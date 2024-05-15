@@ -1,6 +1,6 @@
-<div class="w-full mt-12">
+<div class="w-full  bg-white">
     {{-- Nabvar --}}
-    <div class="w-screen grid grid-cols-6 justify-between mb-8">
+    <div class="w-screen bg-white grid grid-cols-6 justify-between mb-8 mt-12">
 
         {{-- Search --}}
         <div class="justify-start col-span-1">

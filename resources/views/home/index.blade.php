@@ -95,7 +95,7 @@
         </section>
 
         <section class="mt-6">
-            <div class="col-span-3 mx-6">
+            <div class="col-span-3 mx-6 h-2/3">
                 <!-- component -->
                 <script defer src="https://unpkg.com/alpinejs@3.2.3/dist/cdn.min.js"></script>
     
@@ -108,16 +108,16 @@
                     <template x-for="(image, index) in images">
                         <figure class="h-96" x-show="currentIndex == index + 1"
                             x-transition:enter="transition transform duration-300" x-transition:enter-start="opacity-0"
-                            x-transition:enter-end="opacity-100" x-transition:leave="transition transform duration-300"
+                            x-transition:enter-end="opacity-100" x-transition:leave="transition transform duration-200"
                             x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0">
                             <img :src="image" alt="Image"
                                 class="absolute inset-0  h-full rounded-3xl w-full object-cover opacity-70" />
                             <figcaption class="absolute inset-x-0 bottom-1 z-20 w-96 mx-auto p-4 font-light text-center mb-24">
-                                <p class="text-2xl mb-12">
+                                <p class="text-3xl text-white mb-12">
                                     <span class="font-extrabold">
                                         Elige tu coleccion
                                     </span> <br>
-                                    y ahorra en Promociones
+                                    y ahorra en <span class="text-blue-600 font-black">Promociones</span> 
                                 </p>
     
                                 <button class="bg-black rounded-full mb-12 p-2 px-4">
@@ -146,7 +146,7 @@
                         </svg>
                     </button>
                 </article>
-                <div class="bg-gradient-to-b z-40 h-50 from-transparent to-white via-white -translate-y-1/2">
+                <div class="bg-gradient-to-b z-40 h-50 mb-0 from-transparent to-white via-white -translate-y-1/2">
                     <div class="flex justify-center w-full">
                         <div class="grid grid-cols-4 gap-20">
                             <!-- component -->
@@ -234,7 +234,7 @@
             </div>
         </section>
         
-        <section>
+        <section class="top-0">
             @livewire('products')
         </section>
         

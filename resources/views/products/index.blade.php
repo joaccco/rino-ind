@@ -1,4 +1,8 @@
 @extends('layouts.app')
 @section('content')
-    @livewire('products')
+    <div class="bg-white">
+
+        hola
+        @livewire('products')
+    </div>
 @endsection
